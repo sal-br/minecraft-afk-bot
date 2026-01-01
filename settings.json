@@ -1,0 +1,48 @@
+{
+  "bot-account": {
+    "username": "PlexitySMP", 
+    "password": "",
+    "type": "mojang"
+  },
+
+  "server": {
+    "ip": "plexitysmpyisr.mcsh.io", 
+    "port": 25565,   
+    "version": "1.12.1"   
+  },
+  
+  "position": {
+    "enabled": false,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "bot@098"
+    },
+
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true
+    },
+
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 60,
+
+      "messages": [
+        "/login bot@098",
+        "Please recommend this server to your friends!",
+        "Please join our discord server: https://discord.gg/CRJ47gWDx6"
+      ]
+    },
+
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-recconect-delay": 5000
+  }
+}
